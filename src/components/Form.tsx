@@ -47,7 +47,7 @@ export default function Form(props: FormProps) {
                         props.changedClient?.(new Client(name, +age, id))
                     }}
                 >
-                    {id ? 'Edit' : 'Save'}
+                    Save
                 </Button>
 
                 <Button onClick={props.canceled}>
